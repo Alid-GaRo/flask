@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="keywords" content="HTML5, CSS3">
+<title>Ejemplo de estructura HTML5</title>
+<link rel="stylesheet" href="../static/estilos.css">
+<link rel="shortcut icon" href="../static/imagenes/huella.png" type="image/x-icon">
+</head>
+<body>
+    
+<header>
+    <h1>Pet Shop</h1>
+</header>
+    
+<nav>
+    <ul>
+        <li><a href="/index">Inicio</a></li>
+        <li><a href="/animal1">Carpincho</a></li>
+        <li><a href="/animal2">Erizo</a></li>
+        <li><a href="/animal3">Ardilla</a></li>
+        <li><a href="/contacto">Contacto</a></li>
+    </ul>
+</nav>
+    
+{% block content %}
+ {% endblock %}
+<footer>
+    <h5>©2024.PetShop</h5>
+</footer>
+</body>
+</html>
